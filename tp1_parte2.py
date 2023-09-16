@@ -1,7 +1,7 @@
 import math
 
 #EJERCICIO 1
-#1. Calcular el perímetro y área de un rectángulo dada su base y su altura.
+'''Calcular el perímetro y área de un rectángulo dada su base y su altura.
 
 base = float(input("Ingrese el valor de la base del rectángulo: "))
 altura = int(input("Ingrese el valor de la altura: "))
@@ -9,21 +9,23 @@ altura = int(input("Ingrese el valor de la altura: "))
 perimetro_rectangulo = (base * 2) + (altura * 2)
 area_rectangulo = base * altura
 
-print(f"El area del rectángulo es: {area_rectangulo}. \nEl perímetro del rectángulo es: {perimetro_rectangulo}")
+print(
+    f"El area del rectángulo es: {area_rectangulo}. \nEl perímetro del rectángulo es: {perimetro_rectangulo}"
+)'''
 
 #EJERCICIO 2
-#2. Dados los catetos de un triángulo rectángulo, calcular su hipotenusa.
+'''2. Dados los catetos de un triángulo rectángulo, calcular su hipotenusa.
 
 cateto1 = float(input("Ingrese el valor del primer cateto: "))
 cateto2 = float(input("Ingrese el valor del segundo cateto: "))
 
 hipotenusa = ((cateto1) ** 2 + (cateto2) ** 2) ** (1/2)
 
-print(f"La hipotenusa del triangulo es: {hipotenusa}")
+print(f"La hipotenusa del triangulo es: {hipotenusa}")'''
 
 #EJERCICIO 3
-#3. Dados dos números, mostrar la suma, resta, división y multiplicación de
-#ambos.
+'''Dados dos números, mostrar la suma, resta, división y multiplicación de
+ambos.
 
 num1 = float(input("Ingrese el valor del primer número: "))
 num2 = float(input("Ingrese el valor del segundo número: "))
@@ -32,18 +34,18 @@ num2 = float(input("Ingrese el valor del segundo número: "))
 print(f"La suma de {num1} y {num2} es igual a: {num1 + num2}  \n"
     f"La resta de {num1} y {num2} es igual a: {num1 - num2} \n"
     f"La multiplicación de {num1} y {num2} es igual a: {num1 * num2} \n"
-    f"La división de {num1} y {num2} es igual a: {num1 / num2}")
+    f"La división de {num1} y {num2} es igual a: {num1 / num2}")'''
 
 
 #Ejercicio 4 
-#4. Escribir un programa que convierta un valor dado en grados Fahrenheit a grados Celsius.
+'''4. Escribir un programa que convierta un valor dado en grados Fahrenheit a grados Celsius.
 
 F=float(input("Ingrese los grados Fahrenheit: "))
 C=(F-32)*(5/9)
-print("El valor en grados celsius es: ",C)
+print("El valor en grados celsius es: ",C)'''
 
 #Ejercicio 5 
-#5. ¿Qué problemas tienen las siguientes instrucciones?¿Cómo las solucionarías?
+'''5. ¿Qué problemas tienen las siguientes instrucciones?¿Cómo las solucionarías?
 
 a) A = input(nombre, “¿Cuál es tu canción favorita?”)
 a)Tiene un error al colocar la variable “nombre”(en caso de que la variable nombre tenga un valor,se debe 
@@ -62,10 +64,10 @@ Solución: print("tu edad es", edad)
 d) edad = int(input(“Edad: “))
     print(“Veamos si tu edad es 18…”, edad=18)
 d) Error al mostrar por pantalla la edad del usuario
-Solución: print("Veamos si tu edad es 18…", edad)
+Solución: print("Veamos si tu edad es 18…", edad)'''
 
 #EJERCICIO 6 
-#6. Calcular la media de tres números pedidos por teclado.
+'''6. Calcular la media de tres números pedidos por teclado.
 
 print("Este programa sirve para calcular la media de 3 números")
 num1 = float(input("Ingresa el primer número: ")) 
@@ -236,15 +238,10 @@ anio = int(input("Ingrese el año en que nacio: "))
 print(f"La persona nacio en {dia:02d}/{mes:02d}/{anio}")'''
 
 # EJERCICIO 20
-'''20. Hacer otra versión del programa, pero esta vez almacenado todo en una única variable con formato DDMMAAA.
-
-dia = int(input("Ingrese el dia en que nacio: "))
-mes = int(input("Ingrese el mes en que nacio: "))
-anio = int(input("Ingrese el año en que nacio: "))
-
-unica_variable = f"{dia:02d}/{mes:02d}/{anio}"
-
-print(unica_variable)'''
+"""20. Hacer otra versión del programa, pero esta vez almacenado todo en una única variable con formato DDMMAAA.
+day_month_year=input("Ingrese su fecha de nacimineto en formato DD/MM/AAAA: ")
+list=day_month_year.split("/")
+print(f"Usted nacio el Dia:{list[0]} del mes {list[1]}, y en el año {list[2]}")"""
 
 #EJERCICIO 21
 '''21. Una pareja de motociclistas necesita hacer ciertos cálculos antes de emprender un viaje en moto, 
